@@ -19,7 +19,7 @@ import {
   RiMediumFill,
   RiBehanceFill,
 } from "react-icons/ri"
-import { FaWordpress, FaVk } from "react-icons/fa"
+import { FaWordpress, FaVk, FaImdb } from "react-icons/fa"
 
 import Layout from "../components/layout"
 import BlogListHome from "../components/blog-list-home"
@@ -189,6 +189,15 @@ const HomePage = ({ data }) => {
             <FaVk alt="vk icon" />
           </Link>
         ) : (
+
+        )}
+        {icons.icon === "imdb" ? (
+          <Link to={icons.url} target="_blank" aria-label="link to imdb">
+            <FaImdb alt="imdb icon" />
+          </Link>
+        ) : (
+          
+
           ""
         )}
       </div>
