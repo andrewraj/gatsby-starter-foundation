@@ -1,7 +1,7 @@
 ---
 template: index-page
 slug: /
-title: Anze Mathers
+title: Anbarasi Sinnayah
 tagline: Audio Engineer
 featuredImage: /assets/toa-heftiba-0rlfirsdvzu-unsplash.jpg
 cta:
@@ -9,4 +9,4 @@ cta:
   ctaLink: /about
 ---
 
-He is a award winning gaming graphic designer, based in sunny side of California. Working as Principal designer at Bethesda
+She is an award winning audio engineer, based in some corner in Malaysia.
