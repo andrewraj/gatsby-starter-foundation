@@ -190,6 +190,7 @@ const HomePage = ({ data }) => {
           </Link>
         ) : (
 
+          ""
         )}
         {icons.icon === "imdb" ? (
           <Link to={icons.url} target="_blank" aria-label="link to imdb">
@@ -197,9 +198,9 @@ const HomePage = ({ data }) => {
           </Link>
         ) : (
           
-
           ""
-        )}
+          )}
+
       </div>
     )
   })
